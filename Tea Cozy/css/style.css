@@ -1,0 +1,187 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9 !important;
+}
+
+.logo {
+    padding-left: 0px;
+    max-height: 50px;
+    margin-left: 0;
+
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: inline;
+}
+
+ul {
+    display: block;
+    float: right;
+}
+
+.nav li {
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+    width: 50px;
+    text-decoration: underline;
+
+}
+
+#header {
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    max-height: 69px;
+    width: 100%;
+    display: inline-block;
+    z-index: 1;
+    background-color: black;
+}
+
+.nav img {
+    left: 10px;
+    padding: 10px;
+    max-width: 50%;
+    max-height: 50px;
+    
+}
+
+p {
+    margin-top: 10px;
+}
+
+.hero-text {
+    padding: 0px;
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+
+}
+
+#hero {
+    width: 1200px;
+    height: 700px;
+    background-image: 
+    url("../img/img-mission-background.webp");
+    position: relative;
+    top: 70px;
+    margin: auto;
+    display: block;
+}
+
+.hero img {
+    max-width: 100%;
+}
+
+h2, h4 {
+    padding: 0px;
+    margin: 10px;
+}
+
+#month {
+    justify-content: space-between;
+}
+
+.teamonth {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    margin: auto 0px;
+    padding: 75px 0px 20px;
+}
+
+.steeping {
+    display: inline-block;
+    justify-content: space-between;
+    
+}
+
+#steeping {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#month img {
+    width: 300px;
+    height: 200px !important;
+}
+.row1 {
+margin: 0 auto;
+}
+
+.row2 img {
+    padding: 0 14px;
+}
+
+.rum {
+    margin: 50px 0px;
+}
+
+.rum img {
+    padding: 0px 25px;
+}
+
+
+#locations {
+    background-image: url("../img/img-locations-background.webp");
+    width: 1200px;
+    height: 500px;
+    margin: 0px auto;
+}
+
+#locations p {
+    padding: 10px;
+}
+
+#locations h2 {
+    position: relative;
+    margin-bottom: 15px;
+    top: 57px;
+    text-align: center;
+}
+
+.location {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+    text-align: center;
+    background-color: black;
+    position: relative;
+    margin: 0px 20px;
+
+    
+}
+
+.all-locations {
+    display: flex;
+    flex-wrap: wrap;
+
+    transform: translate(7%, 19%);
+}
+
+.contact {
+    height: 200px;
+    text-align: center;
+    margin: auto;
+
+}
+
+a {
+    color: seashell;
+    text-decoration: none;
+}
